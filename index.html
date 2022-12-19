@@ -8,17 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 
     <title>Site Gaia</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-verde-gaia">
+    <nav class="barra-de-navegacao navbar navbar-expand-lg navbar-dark">
       
       <div class="container">
 
-        <img class="navbar-brand mr-auto" src="img/florzinha-icon.png" alt="logo-florzinha">
+        <img class="img-flor navbar-brand mr-auto" src="img/florzinha-icon.png" alt="logo-florzinha">
 
-        <ul class="navbar-nav">
+        <ul class="itens-do-navbar navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">Início</a>
           </li>
@@ -33,16 +35,59 @@
           </li>
         </ul>
 
-        <img class="navbar-brand ml-auto" src="img/mundo.png" alt="logo-mundo">
+        <img class="img-mundo navbar-brand ml-auto" src="img/mundo.png" alt="logo-mundo">
         
       </div>
-
+      
     </nav>
 
-    <div class="slogan">
+    <div class="slogan mb-5">
       <img src="img/pimenta.png" alt="pimenta-desenho">
-      <h1>Agro é Gaia,<br> Gaia é Tech</h1>
+      <h1 class="titulo-slogan">Agro é Gaia,<br> Gaia é Tech</h1>
     </div>
+
+    <div class="sobre-nos">
+        <div class="titulo-sobre-nos">
+          <img class="img-retangulo mx-2" src="img/retangulo-1paragrafo.png" alt="ícone retangulo">
+          <h2 class="titulo-sobre-nos-texto ">Sobre nós!</h2>
+        </div>
+        
+        <p>
+          Nós da Gaia AgroTech, somos uma startup especializada na qualificação e no rastreio de produtos oriundos do agronegócio.
+          Nascemos em janeiro de 2021, dentro do Laboratório de Extensão em Desenvolvimento de Soluções (LEDS), do Instituto Federal
+          de Educação, Ciência e Tecnologia do Espírito Santo (IFES), Campus Serra, no contexto do projeto “Pink Pepper Qualifier:
+          Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional”,
+          submetido ao edital Ifes 05/2020, de apoio ao empreendedorismo inovador com foco na Economia 4.0.
+
+          Nossa proposta de valor é a construção de pontes para emancipação e melhoria da qualidade de vida no campo.
+        </p>
+    </div>
+
+    <div class="pimenta-rosa">
+      <div class="titulo-pimenta-rosa">
+        <img class="img-pimentinha mx-2" src="img/pimentinha-2paragrafo.png" alt="ícone retangulo">
+        <h2 class="titulo-pimenta-rosa-texto ">Pink Pepper</h2>
+      </div>
+      
+      <p>
+        O projeto Pink Pepper Qualifier é uma solução em formato mobile (App) que permite obter
+        relatórios de qualidade e rastreio da pimenta rosa a partir de fotos tiradas de smartphones.
+      </p>
+    </div>
+
+    <div class="equipe">
+      <div class="titulo-equipe">
+        <img class="img-pessoa mx-2" src="img/pessoa-3paragrafo.png" alt="ícone retangulo">
+        <h2 class="titulo-pimenta-rosa-texto ">Equipe</h2>
+      </div>
+      
+      <!--Conteúdo vem aqui-->
+      <p>
+        O projeto Pink Pepper Qualifier é uma solução em formato mobile (App) que permite obter
+        relatórios de qualidade e rastreio da pimenta rosa a partir de fotos tiradas de smartphones.
+      </p>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
